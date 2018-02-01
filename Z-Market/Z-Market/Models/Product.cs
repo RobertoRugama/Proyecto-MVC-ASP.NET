@@ -26,6 +26,6 @@ namespace Z_Market.Models
         [Display(Name = "Observacion")]
         public string Remarks { get; set; }
 
-        public virtual ICollection<SupplierProduct> Supplierproducts { get; set; }
+        
     }
 }
